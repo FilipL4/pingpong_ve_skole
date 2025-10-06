@@ -36,12 +36,12 @@ class PongGame:
                     pygame.quit()
                     sys.exit()
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_w:
+                    if event.key == pygame.K_UP:
                         self.left_vel = -7
-                    if event.key == pygame.K_s:
+                    if event.key == pygame.K_DOWN:
                         self.left_vel = 7
                 if event.type == pygame.KEYUP:
-                    if event.key in [pygame.K_w, pygame.K_s]:
+                    if event.key in [pygame.K_UP, pygame.K_DOWN]:
                         self.left_vel = 0
 
             self.left_paddle.y += self.left_vel
