@@ -19,7 +19,7 @@ class PongGame:
         self.right_paddle = pygame.Rect(self.WIDTH - 45, self.HEIGHT//2 - self.PADDLE_HEIGHT//2, self.PADDLE_WIDTH, self.PADDLE_HEIGHT)
         self.ball = pygame.Rect(self.WIDTH//2 - self.BALL_SIZE//2, self.HEIGHT//2 - self.BALL_SIZE//2, self.BALL_SIZE, self.BALL_SIZE)
 
-        self.ball_vel_x = 5
+        self.ball_vel_x = 10
         self.ball_vel_y = 5
         self.left_vel = 0
 
