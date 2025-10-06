@@ -1,0 +1,5 @@
+# Základní požadavky pro projekt
+
+# Například:
+numpy
+pandas
